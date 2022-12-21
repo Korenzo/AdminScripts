@@ -40,7 +40,7 @@ Bits = GetObject("winmgmts:root\cimv2:Win32_Processor='cpu0'").AddressWidth
 	IF Bits = "64" Then
 
         ' INSTALLS DRIVER
-    strINFPath = "\\10.1.1.130\vol1\Apps\Drivers\Canon\ImagePass-N1\x64\pcl6\Cnp60MA64.INF"
+    strINFPath = "\\urbanengineers.local\files\legacy\XFERS\IT\Drivers\Canon\ImagePass-N1\x64\pcl6\Cnp60MA64.INF"
     strPrinterName = "Canon Generic Plus PCL6"
     strArch = "x64"
     strMode = "Type 3 - User Mode"
